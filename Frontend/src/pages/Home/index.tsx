@@ -14,8 +14,8 @@ const Home = () => {
     })
     
   return (
-    <main className="p-8">
-        <h1 className="text-3xl font-bold text-white mb-6">Catálogo de produtos</h1>
+    <main className="p-8 bg-emerald-800 font-inter">
+        <h1 className="text-3xl font-bold text-primary mb-6">Catálogo de produtos</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
