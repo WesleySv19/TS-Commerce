@@ -6,5 +6,6 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 
 @theme {
-    --font-inter: 'Inter', 'sans-serif'
+    --font-inter: 'Inter', 'sans-serif';
+    --color-primary: #f5f5f5;
 }
